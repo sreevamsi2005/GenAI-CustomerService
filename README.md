@@ -1,18 +1,14 @@
 # GenAI-CustomerService
 A generative AI-powered solution to enhance customer service for Bank of Baroda, providing personalized, efficient, and proactive support across multiple channels.
-# GenAI-CustomerService
-
-A generative AI-powered solution to enhance customer service for Bank of Baroda, providing personalized, efficient, and proactive support across multiple channels.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
+- [Setup](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Future Work](#future-work)
 
 ## Introduction
 
@@ -30,15 +26,8 @@ This project aims to enhance the customer service experience for Bank of Baroda 
 - **Backend**: Python, Flask (or FastAPI)
 - **Frontend**: React
 - **AI Model**: OpenAI GPT-3/4
-- **Deployment**: AWS / Heroku / Azure
 
-## Installation
-
-### Prerequisites
-
-- Python 3.7+
-- Node.js
-- npm / yarn
+## Setup
 
 ### Backend Setup
 
@@ -92,11 +81,22 @@ This project aims to enhance the customer service experience for Bank of Baroda 
 2. Open your browser and navigate to `http://localhost:3000`.
 3. Interact with the chatbot to receive automated customer support and personalized recommendations.
 
-## Contributing
+## Future Work
 
-We welcome contributions from the community. To contribute:
+- **Expand Data Integration**: Incorporate more customer data for better personalization.
+- **Enhance Security**: Implement advanced security measures for data privacy.
+- **Multi-Channel Support**: Extend support to other customer service channels (e.g., voice, social media).
+- **Scalability**: Optimize the system for handling a larger volume of inquiries.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`
+## Presentation
+
+- **Demo**: [Link to demo video]
+- **Slides**: [Link to presentation slides]
+
+## Team Members
+
+- [Member 1 Name](https://github.com/member1)
+- [Member 2 Name](https://github.com/member2)
+- [Member 3 Name](https://github.com/member3)
+- [Member 4 Name](https://github.com/member4)
+
