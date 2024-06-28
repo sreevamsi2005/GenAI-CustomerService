@@ -2,7 +2,7 @@
 A generative AI-powered solution to enhance customer service for Bank of Baroda, providing personalized, efficient, and proactive support across multiple channels.
 
 ## Table of Contents
-
+ 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
