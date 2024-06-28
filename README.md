@@ -4,6 +4,7 @@ A generative AI-powered solution to enhance customer service for Bank of Baroda,
 ## Table of Contents
  
 - [Introduction](#introduction)
+- [Workflow](#Workflow)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
@@ -14,12 +15,15 @@ A generative AI-powered solution to enhance customer service for Bank of Baroda,
 
 This project aims to enhance the customer service experience for Bank of Baroda by leveraging generative AI technologies. Our solution automates customer inquiries, provides accurate real-time responses, offers personalized recommendations based on customer data, and integrates seamlessly with existing customer service platforms while maintaining high security and data privacy standards.
 
+## Workflow 
+
 1. **Architecture Design**: Develop a chatbot using RAG (Retriever and Generator) with an SQL database and API integration for Bank of Baroda.
 2. **SQL Database**: Store structured data like customer info, transaction history, FAQs, and product details.
 3. **Retriever Module**: Implement efficient SQL queries to fetch relevant information from the database.
 4. **Generator Module**: Fine-tune a language model (e.g., GPT) to generate coherent responses based on retrieved data.
 5. **API Integration**: Interface with external systems to provide real-time banking information and other services.
 6. **User Interface**: Design a user-friendly front-end (web or mobile) to interact with the chatbot, send queries, and display responses.
+7. **Overview**:This streamlined approach covers the essential components of your project.
 
 ## Features
 
@@ -31,12 +35,13 @@ This project aims to enhance the customer service experience for Bank of Baroda 
 ## Tech Stack
 
 - **Backend**: Python, Flask (or FastAPI)
-- **Frontend**: React
-- **AI Model**: OpenAI GPT-3/4
+- **Frontend**: Steamlit
+- **AI Model**: Gemini pro vision
+- **Database**: SQL
+- **Vector Database**:Pinecone
 
 ## Setup
 
-### Backend Setup
 
 1. Clone the repository:
     ```sh
@@ -60,28 +65,6 @@ This project aims to enhance the customer service experience for Bank of Baroda 
     export OPENAI_API_KEY='your-api-key'  # On Windows use `set OPENAI_API_KEY=your-api-key`
     ```
 
-5. Run the Flask server:
-    ```sh
-    flask run
-    ```
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-    ```sh
-    cd ../frontend
-    ```
-
-2. Install the required packages:
-    ```sh
-    npm install
-    ```
-
-3. Start the React development server:
-    ```sh
-    npm start
-    ```
-
 ## Usage
 
 1. Ensure both backend and frontend servers are running.
@@ -94,16 +77,12 @@ This project aims to enhance the customer service experience for Bank of Baroda 
 - **Enhance Security**: Implement advanced security measures for data privacy.
 - **Multi-Channel Support**: Extend support to other customer service channels (e.g., voice, social media).
 - **Scalability**: Optimize the system for handling a larger volume of inquiries.
-
-## Presentation
-
-- **Demo**: [Link to demo video]
-- **Slides**: [Link to presentation slides]
+- **Chatbot**: Interact with the chatbot to receive automated customer support and personalized recommendations.
 
 ## Team Members
 
-- [Member 1 Name](https://github.com/member1)
-- [Member 2 Name](https://github.com/member2)
-- [Member 3 Name](https://github.com/member3)
-- [Member 4 Name](https://github.com/member4)
+- [Sree Vamsi](https://github.com/sreevamsi2005)
+- [Madhav](https://github.com/Madhav1303)
+- [Jagadeesh](https://github.com/JagadeeshRallabandi)
+- [Ayush](https://github.com/AyushSonuu)
 
