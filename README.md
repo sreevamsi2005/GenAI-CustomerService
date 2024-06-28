@@ -14,6 +14,13 @@ A generative AI-powered solution to enhance customer service for Bank of Baroda,
 
 This project aims to enhance the customer service experience for Bank of Baroda by leveraging generative AI technologies. Our solution automates customer inquiries, provides accurate real-time responses, offers personalized recommendations based on customer data, and integrates seamlessly with existing customer service platforms while maintaining high security and data privacy standards.
 
+1. **Architecture Design**: Develop a chatbot using RAG (Retriever and Generator) with an SQL database and API integration for Bank of Baroda.
+2. **SQL Database**: Store structured data like customer info, transaction history, FAQs, and product details.
+3. **Retriever Module**: Implement efficient SQL queries to fetch relevant information from the database.
+4. **Generator Module**: Fine-tune a language model (e.g., GPT) to generate coherent responses based on retrieved data.
+5. **API Integration**: Interface with external systems to provide real-time banking information and other services.
+6. **User Interface**: Design a user-friendly front-end (web or mobile) to interact with the chatbot, send queries, and display responses.
+
 ## Features
 
 - **Automated Customer Support**: Real-time response generation to customer inquiries.
