@@ -12,7 +12,7 @@ A generative AI-powered solution to enhance customer service for Bank of Baroda,
 - [Future Work](#future-work)
 
 ## Introduction
-
+ 
 This project aims to enhance the customer service experience for Bank of Baroda by leveraging generative AI technologies. Our solution automates customer inquiries, provides accurate real-time responses, offers personalized recommendations based on customer data, and integrates seamlessly with existing customer service platforms while maintaining high security and data privacy standards.
 
 ## Workflow 
